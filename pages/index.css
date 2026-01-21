@@ -1,0 +1,19 @@
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+.serif-italic {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+}
