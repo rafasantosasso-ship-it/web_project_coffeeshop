@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Meta tags de informações do projeto -->
     <meta name="author" content="Nome do Autor" />
     <meta
       name="description"
@@ -14,7 +12,6 @@
       name="keywords"
       content="HTML, CSS, JavaScript, Web Design, Projeto"
     />
-
     <title>Cafe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,8 +19,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@1,400&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Links de CSS no head -->
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="./favicon.ico" />
@@ -31,34 +26,82 @@
   <body>
     <div class="page">
       <header class="header">
-        <h1>Meu Projeto Web</h1>
-      </header>
-      <main class="content">
-        <section class="recipes">
-          <h2>Sobre este documento</h2>
-          <p>
-            Este arquivo HTML foi gerado incluindo todos os elementos técnicos
-            obrigatórios:
-          </p>
-          <ul>
+        <div class="header__image"></div>
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo da Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
             <li>
-              Estrutura completa com <code>&lt;html&gt;</code>,
-              <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code>.
-            </li>
-            <li>Idioma definido como <code>pt-BR</code>.</li>
-            <li>
-              Meta tags de <strong>viewport</strong>, <strong>autor</strong>,
-              <strong>descrição</strong> e <strong>palavras-chave</strong>.
+              <a href="#recipes" class="nav__link">Receitas</a>
             </li>
             <li>
-              Links válidos para <strong>normalize.css</strong> e
-              <strong>index.css</strong>.
+              <a class="nav__link">Reservar uma mesa</a>
             </li>
             <li>
-              Fontes <strong>Inter</strong> (400, 500, 700) e
-              <strong>Noto Serif</strong> (Itálico 400) integradas.
+              <a class="nav__link">Contatos</a>
             </li>
           </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café especial</span><br />
+          na biblioteca Triple Peaks
+        </h1>
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          <br />você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Ilustração 'Dentro da biblioteca'"
+          class="header__coffee-image"
+        />
+        <div class="header__footer">
+          <p class="header__time">
+            Horários:<br />
+            Segunda a sexta (10:00 19:00)<br />
+            Sábado a Domingo (11:00 18:00)
+          </p>
+          <p class="header__address">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
+            Confira algumas receitas que coletamos para<br />
+            seu lanchinho caseiro:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">
+                <span>Aeropress</span>
+                <span>~5 min</span>
+              </p>
+            </div>
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">
+                <span>Prensa Francesa</span>
+                <span>~15 min</span>
+              </p>
+            </div>
+          </div>
         </section>
         <section class="reservation">
           <h2>Sobre este documento</h2>
