@@ -216,15 +216,14 @@ p {
   background-image: url("../images/background_reservation.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-color: #d9e7ff;
-  min-height: 880px;
+  min-height: 720px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 100px;
   padding-bottom: 120px;
 }
 
