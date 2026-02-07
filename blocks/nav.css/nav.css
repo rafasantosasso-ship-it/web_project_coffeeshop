@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  width: 105px;
+  height: auto;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  padding-top: 30px;
+  margin: 8px 0;
+  margin-right: 80px;
+  column-gap: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
