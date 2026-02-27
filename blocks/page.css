@@ -1,4 +1,4 @@
-page {
+.page {
   max-width: 1600px;
   min-width: 1100px;
   margin: auto;
@@ -8,7 +8,7 @@ page {
   padding: 0 30px;
 }
 
-body {
+.body {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
   color: #333;
