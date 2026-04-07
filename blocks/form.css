@@ -17,6 +17,7 @@
 .form__button {
   max-width: 385px;
   background-color: #2f80ed;
+  border: none;
   border-radius: 4px;
   opacity: 1;
   cursor: pointer;
