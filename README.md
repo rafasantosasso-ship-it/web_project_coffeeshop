@@ -1,3 +1,7 @@
+> **For recruiters:** Responsive coffee shop website built with HTML5/CSS3 and BEM methodology — part of a Full-Stack Web Developer portfolio. [See the full portfolio](https://rafasantosasso-ship-it.github.io/portfolio/).
+
+---
+
 # Triple Espresso
 
 Coffee Shop Website
